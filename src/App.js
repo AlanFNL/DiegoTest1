@@ -3,7 +3,7 @@ import './App.css';
 import Hero from './HeroSection/Hero';
 import NavBar from '../src/NavBar/NavBar';
 
-import ItWorks from './ItWorks/ItWorks';
+
 import Partners from './Partners/Partners'
 import Sponsor from './SPONSOR/Sponsor'
 import Services from './OurServices/OurServices'
