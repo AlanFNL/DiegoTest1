@@ -1,0 +1,65 @@
+{
+    "nav": {
+      "1": "QUIENES SOMOS",
+      "2": "PROCESO",
+      "5": "SOCIOS",
+      "6": "CONTACTO",
+      "7": "CONECTAR",
+      "8": "CONECTADO"
+    },
+
+    "header": {
+        "about-us": "QUIENES SOMOS",
+        "about-us-text": "Somos una agencia web3, tu portal a las nuevas tecnologías. Ofrecemos soluciones, mediante las distintas aplicaciones de la tecnología blockchain.",
+        "claim": "RECLAMAR NFT"
+    },
+
+    "services": {
+        "our-process1": "NUESTRO",
+        "our-process2": "PROCESO",
+        "service-1": "Te entendemos",
+        "service-2": "Te proponemos",
+        "service-3": "Te potenciamos",
+        "service-1-text": "Analizando tu contexto, identificando tus problemáticas, y desarrollando soluciones a medida.",
+        "service-2-text": "Herramientas innovadoras para llevar tu marca al siguiente nivel.",
+        "service-3-text": "A través de nuestra NFT Factory y Metaverse Studio."
+    },
+
+    "metaverse": {
+        "text": "Desarrollamos campañas en el Metaverso, mediante experiencias inmersivas para la última generación de usuarios. Ayudamos a las empresas a expandir su presencia, potenciar su marca e innovar los servicios para su comunidad."
+    },
+
+    "factory": {
+        "text": "Sumamos los NFTs a tu estructura con el objetivo de evolucionar el nivel de relación entre tu marca y tu audiencia: Fusionando la tecnología con tus modelos de negocio, provocando mayor interacción y fidelización dentro de tu comunidad.",
+        "bullet-header": "VALOR DE LOS NFTS",
+        "bullet-1": "PROPIEDAD",
+        "bullet-2": "FUENTE DE INGRESOS",
+        "bullet-3": "LEALTAD A LA MARCA",
+        "bullet-4": "ACTIVOS FÍSICOS TOKENIZADOS",
+        "bullet-5": "CONTENIDO DESBLOQUEABLE",
+        "bullet-6": "MICROCREDENCIALES",
+        "bullet-1-i": "Sé dueño y desbloquea tus activos digitales.",
+        "bullet-2-i": "Crea nuevos modelos de ingresos a través de los NFTs.",
+        "bullet-3-i": "Genera mayor interacción y fidelización con tus usuarios.",
+        "bullet-4-i": "Incrementa el valor de tus creaciones físicas.",
+        "bullet-5-i": "Otorga beneficios exclusivos a tu comunidad.",
+        "bullet-6-i": "Certifica tus experiencias y conocimientos en la red.",
+        "bullet-close": "CERRAR"
+    },
+
+    "partners": {
+        "header": "SOCIOS"
+    },
+
+    "form": {
+        "contact": "CONTACTO",
+        "name": "Nombre",
+        "mail": "Email",
+        "msg": "Mensaje",
+        "submit": "ENVIAR",
+        "submit-good": "Su mensaje se ha envíado correctamente.",
+        "submit-bad": "Los campos deben estar rellenados."
+    }
+
+    
+}

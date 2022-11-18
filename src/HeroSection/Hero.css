@@ -1,0 +1,17 @@
+.reforceHeaderText {
+    left: 50%;
+}
+
+@media (max-width: 420px) {
+    .reforceHeaderText {
+        
+        max-width: 97%!important;
+
+        max-height: 100%!important;
+
+        margin-bottom: 150px;
+
+        
+    }
+
+}

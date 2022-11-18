@@ -1,0 +1,54 @@
+.body_sponsor
+{
+    
+    overflow: hidden;
+    margin: 0 auto;
+    color: #fff;
+    
+}
+
+.section_sponsor {
+    min-height: 15vh;
+    width: 100%;
+    margin: 0 auto;
+    
+    
+    align-items: center;
+}
+
+.purple_bg {
+    background-color: #662483;
+    background-image: url(../assets/bk-g.png);
+    min-height: 15vh;
+    width: 100%;
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: repeat;
+    text-align: center;
+    
+}
+
+.text_sponsor {
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    
+
+
+    
+    
+}
+
+.a_sponsor {
+   font-weight: 700;
+}
+
+.give {
+    width: 25vh;
+    margin-top: -2rem;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,64 @@
+{
+    "nav": {
+        "1": "ABOUT US",
+        "2": "PROCESS",
+        "5": "PARTNERS",
+        "6": "CONTACT",
+        "7": "CONNECT",
+        "8": "CONNECTED"
+    },
+
+    "header": {
+        "about-us": "ABOUT US",
+        "about-us-text": "We are a web3 agency, your portal to new technologies. We offer practical solutions through the different applications of blockchain technology.",
+        "claim": "CLAIM NFT"
+    },
+
+    "services": {
+        "our-process1": "OUR",
+        "our-process2": "PROCESS",
+        "service-1": "We understand",
+        "service-2": "We propose",
+        "service-3": "We empower",
+        "service-1-text": "Analyzing your context, identifying your problems, and developing tailor-made solutions.",
+        "service-2-text": "Innovative tools to take your brand to the next level.",
+        "service-3-text": "Through our NFT Factory and Metaverse Studio."
+
+    },
+
+    "metaverse": {
+        "text": "We develop campaigns in the Metaverse, through immersive experiences for the latest generation of users. We help companies expand their presence, enhance their brand and innovate services for their community."
+    },
+
+    "factory": {
+        "text": "We add NFTs to your structure, strengthening the relationship between your brand and your audience: Merging technology with your business models, causing greater interaction and loyalty within your community.",
+        "bullet-header": "NFT VALUES",
+        "bullet-1": "OWNERSHIP",
+        "bullet-2": "NEW REVENUE STREAM",
+        "bullet-3": "BRAND LOYALTY",
+        "bullet-4": "TOKENIZED PHYSICAL ASSETS",
+        "bullet-5": "UNLOCKABLE CONTENT",
+        "bullet-6": "MICROCREDENCIALS",
+        "bullet-1-i": "Own and unlock your digital assets.",
+        "bullet-2-i": "Create new revenue models through NFT.",
+        "bullet-3-i": "Generate greater interaction and loyalty with your users.",
+        "bullet-4-i": "Increase the value of your physical creations.",
+        "bullet-5-i": "Grant exclusive benefits to your community.",
+        "bullet-6-i": "Certify your experiences and knowledge on-chain.",
+        "bullet-close": "CLOSE"
+    },
+
+    "partners": {
+        "header": "PARTNERS"
+    },
+
+    "form": {
+        "contact": "CONTACT",
+        "name": "Name",
+        "mail": "Email",
+        "msg": "Message",
+        "submit": "SEND",
+        "submit-good": "Message sent correctly.",
+        "submit-bad": "All fields must be filled."
+    }
+}

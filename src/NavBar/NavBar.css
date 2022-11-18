@@ -1,0 +1,314 @@
+
+
+link :not(nav) {
+    z-index: 20;
+    height: 1vh;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.conectar {
+    background-image: linear-gradient(340deg, #0093E9 0%, #80D0C7 100%);
+    padding: 8px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px 1px #0F0F0F;
+    cursor: pointer;
+    
+    height: 5vh;
+    text-align: center;
+    
+    font-size: 22px;
+    width: 16vh;
+    color: white;
+    position: relative;
+}
+
+.a_navbar{  
+    z-index: 20;
+    position: relative;
+    text-decoration: none;
+    color: rgb(218, 218, 218);
+    font-size: 22px;
+    left: -15vw;
+    font-weight: bold;
+    
+    text-align: center;
+    letter-spacing: 0.5px;
+    padding: 0 1rem;
+
+}
+
+.a_navbar:after{
+    z-index: 20;
+    content: "";
+    position:absolute;
+    background-color: rgb(7, 120, 212);
+    height: 5px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s ease;
+}
+
+
+.a_navbar:hover{
+    z-index: 20;
+    color: rgb(255, 255, 255);
+    transition: 0.3s ease-in-out;
+}
+
+
+
+.a_navbar:hover:after{
+    z-index: 20;
+    right: 0;
+    width: 100%;
+    
+}
+
+
+
+link{
+    content-visibility: hidden;
+    visibility: hidden;
+    color: unset;
+    height: 0;
+    width: 0;
+}
+
+link:hover{
+    content-visibility: hidden;
+    visibility: hidden;
+    color: unset;
+    height: 0;
+    width: 0;
+}
+
+link:hover:after{
+    width: 0;
+}
+
+.toggler_navbar{
+    cursor: pointer!important;
+    display: none;
+    margin-left: 95px;
+    transition: 0.3s ease-in;
+}
+
+.toggler_navbar div{
+       width: 2.8rem!important;
+       height: 0.3rem;
+       margin: 0.5rem;
+       background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #a1d5e8 100%);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+       transition: 0.3s ease-in;
+}
+
+.button_conectado {
+    background-image: linear-gradient(340deg, #0093E9 0%, #80D0C7 100%);
+    padding: 8px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px 1px #0F0F0F;
+    cursor: pointer;
+    
+    height: 5vh;
+    text-align: center;
+    
+    font-size: 22px;
+    width: 16vh;
+    color: white;
+    position: relative;
+    
+    
+    
+}
+
+.conectar:hover {
+   transform: scale(0.95);
+   transition: 0.3s ease-in-out;
+}
+
+.conectado, .conectar{
+    display: inline-block;
+}
+
+
+
+
+/* 
+@media (min-width: 1200px) and (max-width: 1530px) {
+    .a_navbar{
+        left: -20px;
+        top: 0px;
+        margin: -5px;
+        font-size: 13px;
+    }
+
+    .button_conectado{
+        width: 90px;
+        
+    }
+
+    .text_conectado{
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 1760px) and (max-width: 1830px) {
+    .a_navbar{
+        left: -20px;
+        top: 0px;
+        margin: -1px;
+       
+    }
+
+    .button_conectado{
+        width: 90px;
+        
+    }
+
+    .text_conectado{
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 1480px) and (max-width: 1759px) {
+    .a_navbar{
+        left: -20px;
+        top: 0px;
+        margin: -1px;
+        font-size: 14px;
+       
+    }
+
+    .button_conectado{
+        width: 90px;
+        
+    }
+
+    .text_conectado{
+        font-size: 13px;
+    }
+}
+
+*/
+@media (max-width: 768px) 
+{
+    .toggler_navbar{
+    display: block!important;
+    cursor: pointer!important;
+   
+    }
+
+    .a_navbar {
+        left: 0%;
+    }
+
+    .menu_navbar{
+        
+        display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-top: 1px solid #fff;
+    position: absolute;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #a1d5e8 100%);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    text-align: center;
+    font-size: 40px;
+    top: 100px;
+    left: -100%;
+
+        transform: translateX(0);
+        transition: 0.5s ease-in;
+    }
+
+    .conectado, .conectar{
+        display: none;
+        visibility: hidden;
+    }
+
+    .reforLogo{
+        display: flex;
+        
+        margin-left: -320px;
+    }
+
+    .botones {
+        margin-top: -2vh;
+    }
+    
+}
+
+
+.active_navbar {
+    transform: translateX(100%)!important;
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-4px, 5px);
+  }
+  .toggle .line2 {
+    opacity: 0;
+  }
+  .toggle .line3 {
+    transform: rotate(45deg) translate(-12px, -15px);
+  }
+
+.botones {
+    margin-top: clamp(-1rem, -5vw, -4rem) ;
+}
+
+
+  .botones .hr_botones
+{   
+    
+    width: 100%;
+    height: 2px;
+    border: none;
+    background: #078ecc;
+    margin: auto;
+}
+
+.boton_l {
+
+    display: flex;
+    
+    color: rgb(221, 221, 221);
+    font-size: 26px;
+}
+
+
+.boton_l:hover{
+    z-index: 20;
+    color: rgb(255, 255, 255);
+    transition: 0.3s ease-in-out;
+}
+@media (max-width: 756px) {
+    .botones {
+        margin-right: 15px;
+        margin-top: -3vw;
+    }
+
+}
+
+.reforLogo {
+    margin-left: -7vw;
+
+}
+.reforsa {
+    margin-left: 10vw;
+     width: 3rem;
+     height: 100%;
+     cursor: pointer;
+     pointer-events: auto;
+    
+}

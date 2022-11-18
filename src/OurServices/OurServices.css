@@ -1,0 +1,228 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.ror {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(255, 255, 255);
+   
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+   
+    overflow: hidden;
+}
+
+.ror .clouds {
+    position: absolute;
+    top: 10rem;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.ror .clouds img#cloud1 {
+    position: absolute;
+    bottom: 0;
+    max-width: 100%;
+    animation: animate 8s linear infinite;
+}
+
+.ror .clouds img#cloud2 {
+    position: absolute;
+    bottom: 0;
+    max-width: 100%;
+    animation: animate 10s linear infinite;
+}
+
+.ror .clouds img#cloud3 {
+    position: absolute;
+    bottom: 0;
+    max-width: 100%;
+    animation: animate 12s linear infinite;
+}
+
+
+@keyframes animate {
+    0%{
+        right: -2100px;
+    }
+    100%{
+        right: 100vw;
+    }
+}
+
+.h1_verticals {
+    
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 100px;
+    right: 0;
+    top: -10%;
+background: linear-gradient(to right, #097cc9 53%, #e2d409 95%, #d9dd05 100%);
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+    font-family: 'Hudson';
+    font-weight: 600;
+    margin: auto;
+    font-size: 13rem;
+    opacity: .2;
+    animation: textclip 2s linear infinite;
+}
+
+
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+    
+}
+
+.tab_section {
+    width: 65%;
+    height: 40rem;
+    margin: 3.5rem auto 0;
+    background-color: #6C9BD3;
+    background-image: linear-gradient(160deg, #6C9BD3 0%, #a1d5e8 100%);
+    filter: drop-shadow(10px 10px 4px #8f8f8f);
+
+    border-radius: 10px;
+}
+
+.tabs {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+    background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+    border-radius: 5px 5px 0 0;
+
+}
+
+.tabs li {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'Hudson';
+    position: relative;
+}
+
+.tabs li::after {
+    content: "";
+    position: absolute;
+    bottom: -20%;
+    right: -3%;
+    width: 0%;
+    height: 5px;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    border-radius: 30px;
+    transition: width 0.8s ease;
+}
+
+.tabs li.active::after {
+   width: 104%;
+   
+}
+
+.container_tabs {
+    position: relative;
+}
+
+.content_tabs {
+    
+    top: 0;
+    display: none;
+    
+    
+}
+
+.content_tabs.active {
+    display: block;
+    text-align: center;
+    animation: fade 1s ease;
+}
+
+.content_tabs img {
+    
+   margin-top: 10%;
+   margin-bottom: 5%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, 0%);
+    height: 10rem;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(24deg) brightness(106%) contrast(103%);
+}
+
+.content_tabs p {
+    font-size: 1.5rem;
+    text-align: center;
+    
+    font-weight: 600;
+    width: 70%;
+    margin: 1rem auto 0rem;
+    color: #ffffff;
+}
+
+.content_tabs a {
+    text-decoration: underline;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1600px) {
+    .tab_section {
+        width: 65%;
+    }
+
+    .tabs li {
+        font-size: 150%
+    }
+
+    .container_tabs p {
+        font-size: 120%;
+    }
+    
+}
+
+@media screen and (max-width: 1100px) {
+    .tab_section {
+        width: 90%;
+        margin-bottom: 50px;
+    }
+
+    .tabs li {
+        font-size: 100%
+    }
+
+    .container_tabs p {
+        font-size: 110%;
+    }
+    
+}
+
