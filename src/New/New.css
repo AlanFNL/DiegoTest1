@@ -96,9 +96,8 @@
         
     }
 
-    .col {
-        
-    }
+    
+
 }
 
 
@@ -235,7 +234,7 @@
     overflow: hidden;
     padding: 1em 0;
     margin-left: 3em;
-    padding-bottom: 15rem;
+    padding-bottom: 8rem;
 }
 
 
@@ -253,6 +252,22 @@
     transition: 0.5s;
     animation: anime 5s linear infinite
 }
+
+.button_itworks2 {
+    height: 85px;
+    z-index: 9999999999999999;
+    width: 90%;
+    font-size: 20px;
+    padding: 0.1em 1em;
+    margin-left: 2em;
+    background-color: #6C9BD3;
+    background: linear-gradient(54deg, #6C9BD3 0%, #1c406b 50%, #032247 100%);
+    border-radius: 5px;
+    background-size:600%;
+    transition: 0.5s;
+    animation: anime 5s linear infinite
+}
+
 
 
 
@@ -316,6 +331,7 @@
 }
 
 
+
 .button_itworks:active {background-color:#2980b9; transition:background-size 0}
 
 @keyframes anime 
@@ -362,6 +378,7 @@
     height: 100%;
     overflow: hidden;
     pointer-events: none;
+    top: 15em;
 }
 
 .clouds img#cloud1 {

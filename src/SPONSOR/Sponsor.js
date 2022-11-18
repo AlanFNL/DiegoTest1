@@ -31,7 +31,7 @@ function Sponsor() {
             
             <section className='section_sponsor'>
               <div className='purple_bg'> 
-                <div className='text_sponsor'><p className='p_sponsor'>Visita el <a className='a_sponsor'>Maradona FanFest en Qatar 2022</a> de la mano de</p> 
+                <div className='text_sponsor'><p className='p_sponsor'>{t("give.text")}</p> 
                   </div>
               <a href='https://maradonafanfest.com/#promocion'><img className='give' src={Give}></img></a>
                       </div>

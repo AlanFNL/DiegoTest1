@@ -1,64 +1,56 @@
 {
     "nav": {
-        "1": "ABOUT US",
+        "1": "BUY",
         "2": "PROCESS",
-        "5": "PARTNERS",
+        "5": "FAQS",
         "6": "CONTACT",
         "7": "CONNECT",
         "8": "CONNECTED"
     },
 
     "header": {
-        "about-us": "ABOUT US",
-        "about-us-text": "We are a web3 agency, your portal to new technologies. We offer practical solutions through the different applications of blockchain technology.",
-        "claim": "CLAIM NFT"
+        
+        "about-us-text": "A series of digital collectibles to immortalize your experience at the Maradona Fan Fest Qatar 2022. An exclusive keepsake of this unique experience to commemorate the Argentine soccer icon on the eve of the World Cup.",
+        "claim": "BUY COLLECTIBLE"
     },
 
-    "services": {
-        "our-process1": "OUR",
-        "our-process2": "PROCESS",
-        "service-1": "We understand",
-        "service-2": "We propose",
-        "service-3": "We empower",
-        "service-1-text": "Analyzing your context, identifying your problems, and developing tailor-made solutions.",
-        "service-2-text": "Innovative tools to take your brand to the next level.",
-        "service-3-text": "Through our NFT Factory and Metaverse Studio."
-
+    "give": {
+        "text": "Visit the Maradona FanFest in Qatar 2022 by the hand of"
     },
 
-    "metaverse": {
-        "text": "We develop campaigns in the Metaverse, through immersive experiences for the latest generation of users. We help companies expand their presence, enhance their brand and innovate services for their community."
+    "countdown": {
+        "1": "DAYS",
+        "2": "HOURS",
+        "3": "MINUTES",
+        "4": "SECONDS"
     },
 
-    "factory": {
-        "text": "We add NFTs to your structure, strengthening the relationship between your brand and your audience: Merging technology with your business models, causing greater interaction and loyalty within your community.",
-        "bullet-header": "NFT VALUES",
-        "bullet-1": "OWNERSHIP",
-        "bullet-2": "NEW REVENUE STREAM",
-        "bullet-3": "BRAND LOYALTY",
-        "bullet-4": "TOKENIZED PHYSICAL ASSETS",
-        "bullet-5": "UNLOCKABLE CONTENT",
-        "bullet-6": "MICROCREDENCIALS",
-        "bullet-1-i": "Own and unlock your digital assets.",
-        "bullet-2-i": "Create new revenue models through NFT.",
-        "bullet-3-i": "Generate greater interaction and loyalty with your users.",
-        "bullet-4-i": "Increase the value of your physical creations.",
-        "bullet-5-i": "Grant exclusive benefits to your community.",
-        "bullet-6-i": "Certify your experiences and knowledge on-chain.",
-        "bullet-close": "CLOSE"
+    "howto": {
+    "h": "¿HOW TO MINT?",
+       "1": "1. CONFIGURE YOUR WALLET",
+       "2": "2. BUY CRYPTO",
+       "3": "3. READY TO BUY",
+       "1-t": "You will need MetaMask to mint one of our Maradona FanFest collectibles. Install the Chrome extension or download the mobile app to get started. Check out this article to learn how to configure MetaMask. If you're curious, you can find other wallet options here.",
+       "2-t": "Nuestro Maradona FanFest coleccionable tendrá un costo de 50 USD, además deberá pagar una tarifa de transacción (denominado gas) a la red Polygon para mintear el NFT. Puede depositar directamente en su billetera MetaMask o usar un intercambio popular como Coinbase, Gemini o un servicio como MoonPay para adquirir una cantidad de MATIC."
     },
 
-    "partners": {
-        "header": "PARTNERS"
-    },
-
-    "form": {
-        "contact": "CONTACT",
-        "name": "Name",
-        "mail": "Email",
-        "msg": "Message",
-        "submit": "SEND",
-        "submit-good": "Message sent correctly.",
-        "submit-bad": "All fields must be filled."
+    "faq": {
+        "1q": "¿What is an NFT?",
+        "1a": "An NFT, or non-fungible token, is a unique and identifiable digital asset stored on the blockchain. An NFT could be a digital piece of art, a collectible, or even a digital representation of a real-life physical asset. Ownership of an NFT is easily and only verifiable due to its public listing on the blockchain.",
+        "2q": "¿What does it mean to 'mint' an NFT?",
+        "2a": "Minting refers to the process of tokenizing a digital file, or digital work of art, and publishing it on the blockchain. Once an NFT is minted, you can verify ownership and buy, sell, and trade the NFT.",
+        "3q": "How much does this NFT cost?",
+        "3a": "The cost of the NFT of Maradona FanFest is 50 USD or 60 Matic, keep in mind that you will also have to face the gas fees of the network.",
+        "4q": "How do I set up a wallet?",
+        "4a": "Check out this article to learn how to set up your non-custodial wallet: Wallet Setup Guide",
+        "5q": "How many NFTs can I buy?",
+        "5a": "You can buy as many as you want! Keep in mind that you have until the end of the World Cup to acquire them and take this iconic digital Collectible with you.",
+        "6q": "What happens if I lose access to my wallet?",
+        "6a": "The best way to prevent the loss of a wallet or wallet address is to make numerous physical copies of your seed phrase ('Secret Recovery Phrase') and store these copies in places you know and trust. Unfortunately, there's not much you can do if you've lost all copies of your wallet's seed phrase, so make sure you keep it safe. Never share your wallet opening phrase with anyone.",
+        "7q": "Where can I see my NFT?",
+        "7a": "Once the NFT has been claimed (or 'minted'), you will be able to view your NFT on the Cheetos Chester Drop website, on OpenSea, or on other NFT marketplaces based on the Polygon network. You can simply connect your digital wallet to the marketplace, which 'registers' you, and then look up the NFTs in your wallet through the marketplace interface.",
+        "8q": "Can I see or change my NFT?",
+        "8a": "If the collectible can be sold or exchanged through the secondary market, in the marketplace that is most convenient for you. As advice, we recommend publishing them on OpenSea, which is the platform with the highest sales volume in the NFT industry."
     }
+
 }

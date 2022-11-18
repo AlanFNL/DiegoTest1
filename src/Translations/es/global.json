@@ -1,65 +1,57 @@
 {
     "nav": {
-      "1": "QUIENES SOMOS",
-      "2": "PROCESO",
-      "5": "SOCIOS",
-      "6": "CONTACTO",
-      "7": "CONECTAR",
-      "8": "CONECTADO"
+        "1": "COMPRAR",
+        "2": "PROCESO",
+        "5": "FAQS",
+        "6": "CONTACTO",
+        "7": "CONECTAR",
+        "8": "CONECTADO"
     },
 
     "header": {
-        "about-us": "QUIENES SOMOS",
-        "about-us-text": "Somos una agencia web3, tu portal a las nuevas tecnologías. Ofrecemos soluciones, mediante las distintas aplicaciones de la tecnología blockchain.",
-        "claim": "RECLAMAR NFT"
+        
+        "about-us-text": "Una serie de coleccionables digitales para inmortalizar tu experiencia en la Maradona Fan Fest en Catar 2022. Un recuerdo exclusivo de esta experiencia única para conmemorar al ícono del fútbol argentino en vísperas del mundial.",
+        "claim": "COMPRAR COLECCIONABLE"
     },
 
-    "services": {
-        "our-process1": "NUESTRO",
-        "our-process2": "PROCESO",
-        "service-1": "Te entendemos",
-        "service-2": "Te proponemos",
-        "service-3": "Te potenciamos",
-        "service-1-text": "Analizando tu contexto, identificando tus problemáticas, y desarrollando soluciones a medida.",
-        "service-2-text": "Herramientas innovadoras para llevar tu marca al siguiente nivel.",
-        "service-3-text": "A través de nuestra NFT Factory y Metaverse Studio."
+    "give": {
+        "text": "Visita el Maradona FanFest en Qatar 2022 de la mano de"
     },
 
-    "metaverse": {
-        "text": "Desarrollamos campañas en el Metaverso, mediante experiencias inmersivas para la última generación de usuarios. Ayudamos a las empresas a expandir su presencia, potenciar su marca e innovar los servicios para su comunidad."
+    "countdown": {
+        "1": "DÍAS",
+        "2": "HORAS",
+        "3": "MINUTOS",
+        "4": "SEGUNDOS"
     },
 
-    "factory": {
-        "text": "Sumamos los NFTs a tu estructura con el objetivo de evolucionar el nivel de relación entre tu marca y tu audiencia: Fusionando la tecnología con tus modelos de negocio, provocando mayor interacción y fidelización dentro de tu comunidad.",
-        "bullet-header": "VALOR DE LOS NFTS",
-        "bullet-1": "PROPIEDAD",
-        "bullet-2": "FUENTE DE INGRESOS",
-        "bullet-3": "LEALTAD A LA MARCA",
-        "bullet-4": "ACTIVOS FÍSICOS TOKENIZADOS",
-        "bullet-5": "CONTENIDO DESBLOQUEABLE",
-        "bullet-6": "MICROCREDENCIALES",
-        "bullet-1-i": "Sé dueño y desbloquea tus activos digitales.",
-        "bullet-2-i": "Crea nuevos modelos de ingresos a través de los NFTs.",
-        "bullet-3-i": "Genera mayor interacción y fidelización con tus usuarios.",
-        "bullet-4-i": "Incrementa el valor de tus creaciones físicas.",
-        "bullet-5-i": "Otorga beneficios exclusivos a tu comunidad.",
-        "bullet-6-i": "Certifica tus experiencias y conocimientos en la red.",
-        "bullet-close": "CERRAR"
+    "howto": {
+    "h": "¿COMO MINTEAR?",
+       "1": "1. CONFIGURA TU WALLET",
+       "2": "2. COMPRA CRIPTOMONEDAS",
+       "3": "3. LISTO PARA COMPRAR",
+       "1-t": "Necesitarás MetaMask para mintear uno de nuestros Maradona FanFest coleccionable. Instale la extensión de Chrome o descargue la aplicación móvil para comenzar. Consulte este artículo para aprender a configurar MetaMask. Si tiene curiosidad, puede encontrar otras opciones de billetera aquí.",
+       "2-t": "Nuestro Maradona FanFest coleccionable tendrá un costo de 50 USD, además deberá pagar una tarifa de transacción (denominado gas) a la red Polygon para mintear el NFT. Puede depositar directamente en su billetera MetaMask o usar un intercambio popular como Coinbase, Gemini o un servicio como MoonPay para adquirir una cantidad de MATIC."
     },
 
-    "partners": {
-        "header": "SOCIOS"
-    },
+    "faq": {
+        "1q": "¿Qué es un NFT?",
+        "1a": "Un NFT, o token no fungible, es un activo digital único e identificable almacenado en la cadena de bloques. Un NFT podría ser una obra de arte digital, un coleccionable o incluso una representación digital de un activo físico de la vida real. La propiedad de un NFT es fácil y únicamente verificable debido a su listado público en la cadena de bloques.",
+        "2q": "¿Qué significa 'Mintear' un NFT?",
+        "2a": "Minting se refiere al proceso de tokenizar un archivo digital, o una obra de arte digital, y publicarlo en la cadena de bloques. Una vez que se mintea un NFT, puede verificar la propiedad y comprar, vender e intercambiar el NFT.",
+        "3q": "¿Cuánto cuesta el NFT?",
+        "3a": "El costo del NFT del maradona fan fest es de 50us o xMatic, tene en cuenta deberás afrontar tambien los gas fees de la red.",
+        "4q": "¿Cómo configuro una wallet?",
+        "4a": "Consulte este artículo para aprender a configurar su billetera sin custodia: Guía de configuración de billetera",
+        "5q": "¿Cuántos NFT puedo comprar?",
+        "5a": "Podras comprar cuantos quieras! Tene en cuenta que tenes hasta el fin del mundial para adquirirlos y llevarte este Coleccionable digital tan icónico.",
+        "6q": "¿Qué sucede si pierdo el acceso a mi billetera?",
+        "6a": "La mejor manera de evitar la pérdida de una billetera o una dirección de billetera es hacer numerosas copias físicas de su frase semilla ('Frase de recuperación secreta') y almacenar estas copias en lugares que conozca y en los que confíe. Desafortunadamente, no se puede hacer mucho si ha perdido todas las copias de la frase inicial de su billetera, así que asegúrese de mantenerla segura. Nunca comparta su frase inicial de billetera con nadie.",
+        "7q": "¿Dónde puedo ver mi NFT?",
+        "7a": "Una vez que se haya reclamado (o 'minteado') el NFT, podrá ver su NFT en el sitio web de Cheetos Chester Drop, en OpenSea o en otros mercados de NFT basados ​​en la red de Polygon. Simplemente puede conectar su billetera digital al mercado, que 'lo registra', y luego buscar los NFT en su billetera a través de la interfaz del mercado.",
+        "8q": "¿Puedo ver o cambiar mi NFT?",
+        "8a": "Si el coleccionable puede ser vendido o intercambiado a traves del mercado secundario, en el marketplace que le resulte más conveniente. Como consejo recomendamos publicarlos en OpenSea que es la plataforma con mayor volumen de ventas en la industria NFT."
 
-    "form": {
-        "contact": "CONTACTO",
-        "name": "Nombre",
-        "mail": "Email",
-        "msg": "Mensaje",
-        "submit": "ENVIAR",
-        "submit-good": "Su mensaje se ha envíado correctamente.",
-        "submit-bad": "Los campos deben estar rellenados."
     }
 
-    
 }
