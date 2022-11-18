@@ -100,7 +100,7 @@ var x = setInterval(function(){
                 </div>
             <div className='col'>
             <div className='container_itworks'>
-        <h2 className='h2_itworks'>Maradona FanFest NFT</h2>
+        <h2 className='h2_itworks'>Maradona FanFest </h2>
         <p className='p_itworks'>Un nft INCREIBLE, capaz de cambiar la vida a todo aquel que lo posea, único disponible, POWERED BY REFORCE POWERED BY DIEGO lorem lorem lorem lorem lorem lorem</p>
         <button onClick={handleWhitelist} className='button_itworks'><p className='button_claim'>Comprar NFT</p></button>
         <div className='launch-time'>
