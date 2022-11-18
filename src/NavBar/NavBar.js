@@ -85,7 +85,7 @@ const NavBar = ({accounts, setAccounts}) => {
                 </Links>
                 
                 {isConnected ? (
-                <div className='conectado'>{t("nav.8")}</div>
+                <div className='a_navbar conectado'>{t("nav.8")}</div>
                  ) : (
                   
                     <a onClick={connectAccount} className='a_navbar conectar'>CONECTAR</a>
