@@ -59,7 +59,7 @@ function New() {
 
 
 
-var countDownDate = new Date("Dec 10, 2022 00:00:00").getTime();
+var countDownDate = new Date("Dec 20, 2022 00:00:00").getTime();
 var x = setInterval(function(){
     var now = new Date().getTime();
     var distance = countDownDate - now;
