@@ -53,7 +53,7 @@ function FAQ() {
               <h2 className='title_faq'>FAQs</h2>
               <div className='faq'>
                   <div className='question'>
-                    <h3>¿Qué es un NFT?</h3>
+                    <h3>{t("faq.1q")}</h3>
 
                     <svg width="15" height="10" viewBox="0 0 42 25">
                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
@@ -62,13 +62,13 @@ function FAQ() {
                       
                     <div className='answer'>
                       <p>
-                        Es una acción increible lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                      {t("faq.1a")}
                       </p>
                     </div>
                 </div>
               <div className='faq'>
                   <div className='question'>
-                    <h3>¿Qué significa 'Mintear' un NFT?</h3>
+                    <h3>{t("faq.2q")}</h3>
 
                     <svg width="15" height="10" viewBox="0 0 42 25">
                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
@@ -77,14 +77,14 @@ function FAQ() {
                       
                     <div className='answer'>
                       <p>
-                        Es una acción increible lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                      {t("faq.2a")}
                       </p>
                     </div>
                 </div>
               
               <div className='faq'>
                   <div className='question'>
-                    <h3>¿Cuánto cuesta el NFT?</h3>
+                    <h3>{t("faq.3q")}</h3>
 
                     <svg width="15" height="10" viewBox="0 0 42 25">
                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
@@ -93,13 +93,13 @@ function FAQ() {
                       
                     <div className='answer'>
                       <p>
-                        Es una acción increible lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                      {t("faq.3a")}
                       </p>
                     </div>
                 </div>
                 <div className='faq'>
                   <div className='question'>
-                    <h3>¿Cómo configuro una billetera?</h3>
+                    <h3>{t("faq.4q")}</h3>
 
                     <svg width="15" height="10" viewBox="0 0 42 25">
                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
@@ -108,30 +108,14 @@ function FAQ() {
                       
                     <div className='answer'>
                       <p>
-                        Es una acción increible lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-                      </p>
-                    </div>
-                </div>
-
-                <div className='faq'>
-                  <div className='question'>
-                    <h3>¿Cuántos NFT puedo comprar?</h3>
-
-                    <svg width="15" height="10" viewBox="0 0 42 25">
-                      <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
-                    </svg>
-                  </div>
-                      
-                    <div className='answer'>
-                      <p>
-                        Es un deporte lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                      {t("faq.4a")}
                       </p>
                     </div>
                 </div>
 
                 <div className='faq'>
                   <div className='question'>
-                    <h3>¿Qué sucede si pierdo el acceso a mi billetera?</h3>
+                    <h3>{t("faq.5q")}</h3>
 
                     <svg width="15" height="10" viewBox="0 0 42 25">
                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
@@ -140,14 +124,14 @@ function FAQ() {
                       
                     <div className='answer'>
                       <p>
-                        Fua el diego lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                      {t("faq.5a")}
                       </p>
                     </div>
                 </div>
 
                 <div className='faq'>
                   <div className='question'>
-                    <h3>¿DÓNDE PUEDO VER MI NFT?</h3>
+                    <h3>{t("faq.6q")}</h3>
 
                     <svg width="15" height="10" viewBox="0 0 42 25">
                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
@@ -156,14 +140,14 @@ function FAQ() {
                       
                     <div className='answer'>
                       <p>
-                        La mejor agencia web3. lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                      {t("faq.6a")}
                       </p>
                     </div>
                 </div>
 
                 <div className='faq'>
                   <div className='question'>
-                    <h3>¿Puedo vender o cambiar mi NFT?</h3>
+                    <h3>{t("faq.7q")}</h3>
 
                     <svg width="15" height="10" viewBox="0 0 42 25">
                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
@@ -172,7 +156,23 @@ function FAQ() {
                       
                     <div className='answer'>
                       <p>
-                        La mejor agencia web3. lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                      {t("faq.7a")}
+                      </p>
+                    </div>
+                </div>
+
+                <div className='faq'>
+                  <div className='question'>
+                    <h3>{t("faq.8q")}</h3>
+
+                    <svg width="15" height="10" viewBox="0 0 42 25">
+                      <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                    </svg>
+                  </div>
+                      
+                    <div className='answer'>
+                      <p>
+                      {t("faq.8a")}
                       </p>
                     </div>
                 </div>
