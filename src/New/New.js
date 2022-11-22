@@ -16,7 +16,7 @@ import confetti from '../assets/confetti.gif'
 
 function New() {
 
-    const TestAddress = "0x0fE085946253f069ec1f22A9867740c8e7C292f2";
+    const TestAddress = "0xAa680b91c35Fa022d3C16530023e5619E4CEE567";
     const [mintAmount, setMintAmount] = useState(1);
     const [whiteInfo, setWhiteInfo] = useState({
         address: "-",
@@ -59,7 +59,7 @@ async function handleMint() {
         );
         
         const response = await contract.mint(BigNumber.from(mintAmount), {
-                value: ethers.utils.parseEther((0.002 * mintAmount).toString()),
+                value: ethers.utils.parseEther((60 * mintAmount).toString()),
             });
         try {
             const receipt = await response.wait()
