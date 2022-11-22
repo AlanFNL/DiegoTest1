@@ -10,7 +10,7 @@ import C2 from '../assets/cloud2.png'
 import C3 from '../assets/cloud3.png'
 import C4 from '../assets/cloud4.png'
 import C5 from '../assets/cloud5.png'
-import B from '../assets/fanfest2.gif'
+import B from '../assets/fanfesty.gif'
 import confetti from '../assets/confetti.gif'
 
 
