@@ -2,8 +2,9 @@ import React, { useRef, useState } from 'react'
 import './New.css'
 import { useInViewport } from 'react-in-viewport'
 import { useTranslation } from "react-i18next";
-import { ethers } from 'ethers';
-import Test from '../NFTS_json_files/Test.json'
+import { ethers,  BigNumber} from 'ethers';
+
+import Test from '../NFTS_json_files/Nftes.json'
 import C1 from '../assets/cloud1.png'
 import C2 from '../assets/cloud2.png'
 import C3 from '../assets/cloud3.png'
@@ -14,7 +15,8 @@ import A from '../assets/avi.png'
 
 function New() {
 
-    const TestAddress = "0x1068aadB0F45EcffFB743a6E872678E8706bBfff";
+    const TestAddress = "0x9a5A110c9CA8aBaC2731F5F27D1e539b304fdCE5";
+    const [mintAmount, setMintAmount] = useState(1);
     const [whiteInfo, setWhiteInfo] = useState({
         address: "-",
         balance: "-"
@@ -53,6 +55,27 @@ function New() {
         alert(err)
         
 
+    }
+}
+
+async function handleMint() {
+    if (window.ethereum) {
+        const provider = new ethers.providers.Web3Provider(window.ethereum);
+        const signer = provider.getSigner();
+        const contract = new ethers.Contract(
+            TestAddress,
+            Test.abi,
+            signer
+        );
+        try {
+            const response = await contract.mint(BigNumber.from(mintAmount), {
+                value: ethers.utils.parseEther((0 * mintAmount).toString()),
+            });
+            console.log('response: ', response);
+
+        } catch (err) {
+            console.log("error: ", err)
+        }
     }
 }
 
@@ -100,25 +123,25 @@ var x = setInterval(function(){
                 </div>
             <div className='col'>
             <div className='container_itworks'>
-        <h2 className='h2_itworks'>Maradona FanFest NFT</h2>
-        <p className='p_itworks'>Un nft INCREIBLE, capaz de cambiar la vida a todo aquel que lo posea, único disponible, POWERED BY REFORCE POWERED BY DIEGO lorem lorem lorem lorem lorem lorem</p>
-        <button onClick={handleWhitelist} className='button_itworks'><p className='button_claim'>Comprar NFT</p></button>
+        <h2 className='h2_itworks'>MARADONA FANFEST</h2>
+        <p className='p_itworks'>{t("header.about-us-text")}</p>
+        <button onClick={handleMint} className='button_itworks'><p className='button_claim'>{t("header.claim")}</p></button>
         <div className='launch-time'>
             <div>
                 <p id='days'>00</p>
-                <span>DAYS</span>
+                <span>{t("countdown.1")}</span>
             </div>
             <div>
                 <p id='hours'>00</p>
-                <span>HOURS</span>
+                <span>{t("countdown.2")}</span>
             </div>
             <div>
                 <p id='minutes'>00</p>
-                <span>MINUTES</span>
+                <span>{t("countdown.3")}</span>
             </div>
             <div>
                 <p id='seconds'>00</p>
-                <span>SECONDS</span>
+                <span>{t("countdown.4")}</span>
             </div>
         </div>
         </div>

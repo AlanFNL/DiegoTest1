@@ -22,7 +22,7 @@ link :not(nav) {
     text-align: center;
     
     font-size: 22px;
-    width: 16vh;
+    width: 22vh;
     color: white;
     position: relative;
 }

@@ -76,11 +76,22 @@ background-clip: text;
     font-family: 'Hudson';
     font-weight: 600;
     margin: auto;
-    font-size: 13rem;
+    font-size: 12em;
     opacity: .2;
     animation: textclip 2s linear infinite;
 }
 
+@media (max-width: 1400px) {
+    .h1_verticals {
+        font-size: 10em;
+    }
+}
+
+@media (max-width: 1245px) {
+    .h1_verticals {
+        font-size: 8em;
+    }
+}
 
 
 @keyframes textclip {

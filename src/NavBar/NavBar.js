@@ -68,7 +68,7 @@ const NavBar = ({accounts, setAccounts}) => {
              <ul className={active}>
 
              <Links to="#about" smooth scroll={el => scrollWithOffset(el)}>
-                <a className='a_navbar' href='#about'>COMPRAR</a>
+                <a className='a_navbar' href='#about'>{t("nav.1")}</a>
                 </Links>
                
              
@@ -77,7 +77,7 @@ const NavBar = ({accounts, setAccounts}) => {
                 </Links>
 
                 <Links to='#partners' smooth scroll={el => scrollWithOffset(el)}>
-                <a className='a_navbar' href='#partners'>FAQS</a>
+                <a className='a_navbar' href='#partners'>{t("nav.5")}</a>
                 </Links>
 
                 <Links to='#contact' smooth scroll={el => scrollWithOffset(el)}>
@@ -85,10 +85,10 @@ const NavBar = ({accounts, setAccounts}) => {
                 </Links>
                 
                 {isConnected ? (
-                <div className='conectado'>{t("nav.8")}</div>
+                <div className='a_navbar conectado'>{t("nav.8")}</div>
                  ) : (
                   
-                    <a onClick={connectAccount} className='a_navbar conectar'>CONECTAR</a>
+                    <a onClick={connectAccount} className='a_navbar conectar'>{t("nav.7")}</a>
             
                 
                     )}
