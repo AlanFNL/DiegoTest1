@@ -74,7 +74,7 @@ function Services () {
         try {
             const receipt = await response.wait()
             console.log(receipt)
-            popup.classList.add('active')
+            
             
 
         } catch (err) {
