@@ -40,7 +40,7 @@
         "2q": "¿What does it mean to 'mint' an NFT?",
         "2a": "Minting refers to the process of tokenizing a digital file, or digital work of art, and publishing it on the blockchain. Once an NFT is minted, you can verify ownership and buy, sell, and trade the NFT.",
         "3q": "How much does this NFT cost?",
-        "3a": "The cost of the NFT of Maradona FanFest is 50 USD or 60 Matic, keep in mind that you will also have to face the gas fees of the network.",
+        "3a": "The cost of the NFT of Maradona FanFest is 50 USD or the equivalent in Matic, keep in mind that you will also have to face the gas fees of the network.",
         "4q": "How do I set up a wallet?",
         "4a": "Check out this article to learn how to set up your non-custodial wallet: Wallet Setup Guide",
         "5q": "How many NFTs can I buy?",
@@ -48,7 +48,7 @@
         "6q": "What happens if I lose access to my wallet?",
         "6a": "The best way to prevent the loss of a wallet or wallet address is to make numerous physical copies of your seed phrase ('Secret Recovery Phrase') and store these copies in places you know and trust. Unfortunately, there's not much you can do if you've lost all copies of your wallet's seed phrase, so make sure you keep it safe. Never share your wallet opening phrase with anyone.",
         "7q": "Where can I see my NFT?",
-        "7a": "Once the NFT has been claimed (or 'minted'), you will be able to view your NFT on the Cheetos Chester Drop website, on OpenSea, or on other NFT marketplaces based on the Polygon network. You can simply connect your digital wallet to the marketplace, which 'registers' you, and then look up the NFTs in your wallet through the marketplace interface.",
+        "7a": "Once the NFT has been claimed (or 'minted'), you will be able to view your NFT on the Maradona FanFest website, on OpenSea, or on other NFT marketplaces based on the Polygon network. You can simply connect your digital wallet to the marketplace, which 'registers' you, and then look up the NFTs in your wallet through the marketplace interface.",
         "8q": "Can I see or change my NFT?",
         "8a": "If the collectible can be sold or exchanged through the secondary market, in the marketplace that is most convenient for you. As advice, we recommend publishing them on OpenSea, which is the platform with the highest sales volume in the NFT industry."
     }
