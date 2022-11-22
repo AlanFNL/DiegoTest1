@@ -18,10 +18,7 @@ import { BrowserRouter} from "react-router-dom";
 
 function App() {
   const [accounts, setAccounts] = useState([]);
-  const [balanceInfo, setBalanceInfo] = useState({
-    address: "-",
-    balance: "-"
-  });
+ 
 
   const [offsetY, setOffsetY] = useState(0);
     const handleScroll = () => setOffsetY(window.scrollY);

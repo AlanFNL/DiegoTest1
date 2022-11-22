@@ -26,14 +26,7 @@ function FAQ() {
   
     const Ref_f = useRef()
 
-    const Boton = () => {
-        Ref_f.current.classList.add('show')
-    }
-    
-    const BotonOff = () => {
-        Ref_f.current.classList.remove('show')
-    
-    }
+  
 
     const faqs = document.querySelectorAll(".faq")
    

@@ -18,7 +18,7 @@ import '../OurServices/OurServices.css'
 
 function Services () {
     
-    const TestAddress = "0x9a5A110c9CA8aBaC2731F5F27D1e539b304fdCE5";
+    const TestAddress = "0x0fE085946253f069ec1f22A9867740c8e7C292f2";
     const [mintAmount, setMintAmount] = useState(1);
     const [t, i18n] = useTranslation("global");
     const ref = useRef(null);
@@ -67,11 +67,15 @@ function Services () {
             Test.abi,
             signer
         );
-        try {
-            const response = await contract.mint(BigNumber.from(mintAmount), {
-                value: ethers.utils.parseEther((0 * mintAmount).toString()),
+        
+        const response = await contract.mint(BigNumber.from(mintAmount), {
+                value: ethers.utils.parseEther((0.002 * mintAmount).toString()),
             });
-            console.log('response: ', response);
+        try {
+            const receipt = await response.wait()
+            console.log(receipt)
+            popup.classList.add('active')
+            
 
         } catch (err) {
             console.log("error: ", err)

@@ -109,7 +109,71 @@
 
 
 
+.popup_mint {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 35vw;
+    height: 35vh;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1), 0 0 0 1000px rgba(56, 56, 56, 0.8);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    visibility: hidden;
+    transition: all 0.3s;
+}
 
+.popup_mint h2 {
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: 'Hudson';
+    margin-bottom: 5rem;
+    font-weight: 600;
+    
+}
+
+.popup_mint p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.popup_mint.active {
+    visibility: visible;
+    
+    transition: all 0.3s;
+}
+
+.confetti {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    filter: opacity(0.2);
+    height: 100%
+    
+
+}
+
+
+
+.close_mint {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px 20px;
+    background: #6C9BD3;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.close_mint:hover {
+    opacity: 0.8;
+    transition: all 0.3s;
+}
 
 
 
@@ -174,6 +238,23 @@
 
 
 
+
+.container_itworks
+{   
+
+    
+    background-color: #6C9BD3;
+    background-image: url(../assets/diego-t2.png);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    min-height: 35vw;
+    max-width: clamp(20rem, 35vw, 60vw);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    filter: drop-shadow(5px 5px 10px rgb(134, 134, 134));
+   
+}
 
 .container_itworks
 {   

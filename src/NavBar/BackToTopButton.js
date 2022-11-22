@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import {Box, ScaleFade, Image} from '@chakra-ui/react'
+import {Box, Image} from '@chakra-ui/react'
 import {useState, useEffect} from 'react';
 import { useInViewport } from 'react-in-viewport'
 import ReforceLogo from '../assets/favi.png'

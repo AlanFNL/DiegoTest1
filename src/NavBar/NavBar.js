@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { Box, Button, Flex} from '@chakra-ui/react';
+import { Flex} from '@chakra-ui/react';
 import { useTranslation } from "react-i18next";
 import { HashLink as Links } from "react-router-hash-link";
 import '../NavBar/NavBar.css'

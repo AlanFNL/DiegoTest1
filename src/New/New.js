@@ -34,55 +34,6 @@ function New() {
       {}
   );
   
-  const handleWhitelist = async (e) => {
-    const provider = new ethers.providers.Web3Provider(window.ethereum);
-    await provider.send("eth_requestAccounts", []);
-    const tokenId = 1;
-    const amount = 1;
-    const signer = await provider.getSigner();
-    const signerAddress = await signer.getAddress();
-    const contract = new ethers.Contract(
-        TestAddress,
-        Test.abi,
-        signer
-    );
-    const tx = await contract.whitelistMint(signerAddress, tokenId, amount) 
-    try { 
-        const receipt = await tx.wait()
-        console.log(receipt)
-        
-        }
-     catch (err) {
-        alert(err)
-        
-
-    }
-}
-
-const handleWhitelis = async (e) => {
-    const provider = new ethers.providers.Web3Provider(window.ethereum);
-    await provider.send("eth_requestAccounts", []);
-    const amount = 1;
-    const mint = 0.02
-    const signer = await provider.getSigner();
-    const signerAddress = await signer.getAddress();
-    const contract = new ethers.Contract(
-        TestAddress,
-        Test.abi,
-        signer
-    );
-    const tx = await contract.mint(mint) 
-    try { 
-        const receipt = await tx.wait()
-        console.log(receipt)
-        
-        }
-     catch (err) {
-        alert(err)
-        
-
-    }
-}
 
 
 
