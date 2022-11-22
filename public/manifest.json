@@ -1,19 +1,19 @@
 {
-  "short_name": "Reforce Infinity",
-  "name": "Reforce Infinity",
+  "short_name": "Maradona FanFest",
+  "name": "Maradona FanFest",
   "icons": [
     {
-      "src": "ContraTapa.png",
+      "src": "favi.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "ContraTapa.png",
+      "src": "favi.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "ContraTapa.png",
+      "src": "favi.png",
       "type": "image/png",
       "sizes": "512x512"
     }
