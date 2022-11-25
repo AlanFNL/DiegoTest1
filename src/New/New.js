@@ -145,7 +145,7 @@ var x = setInterval(function(){
        </div>
        <div ref={Ref_m} className='popup_mint'>
         <h2>Congratulations!</h2>
-        <p>Your Collectible has been minted successfully!</p>
+        <p>Your Collectible has been minted successfully! You can view it <a href='https://opensea.io/es/collection/maradona-fanfest-digital-collective'>Here!</a></p>
         <img className='confetti' src={confetti}></img>
         <b onClick={BotonOff} className='close_mint'>x</b>
        </div>
