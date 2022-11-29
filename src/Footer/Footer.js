@@ -11,7 +11,7 @@ import C5 from '../assets/cloud5.png'
 
 function Footer() {
 
-   
+    
 
     const ref = useRef(null);
     const { inViewport } = useInViewport(
@@ -33,10 +33,10 @@ function Footer() {
                         <div loading='lazy' className='wave' id='wave4'></div>
                     </div>
                     <ul className='social_icon'>
-                        <li className='li_social'><a className='a_social' href='https://www.instagram.com/maradonafanfest/'><img className='ig' loading='lazy' alt='instagram' src={instagramLogo}/></a></li>
+                        <li className='li_social'><a className='a_social' href='https://www.instagram.com/maradonafanfest/' target="_blank" rel="noopener noreferrer"><img className='ig' loading='lazy' alt='instagram' src={instagramLogo}/></a></li>
                        
                     </ul>
-                    <p className='p_footer'>Powered by <a href='https://www.reforceinfinity.io'>Reforce</a></p>
+                    <p className='p_footer'>Powered by <a href='https://www.reforceinfinity.io' target="_blank" rel="noopener noreferrer">Reforce</a></p>
                 </footer>
                
             </body>
